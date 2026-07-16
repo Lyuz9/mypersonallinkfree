@@ -6,7 +6,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-image: url("./../img/paisaje.png");
+    background-image: url("./../img/fondo.jpg");
     /*background-image: url("https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");*/
     background-size: cover;
     background-position: top;
@@ -15,7 +15,7 @@ body {
         content: '';
         width: 100%;
         height: 100%;
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.4);
         position: absolute;
         top: 0;
         left: 0;
@@ -35,6 +35,9 @@ body {
     .bio {
         text-align: center;
         margin-bottom: 40px;
+        h1, p {
+            color: #000;
+        }
 
         .foto {
             width: 150px;
@@ -56,7 +59,7 @@ body {
 
     .links {
         .link {
-            color: black;
+            color: #000;
             border: 3px solid;
             border-radius: 10px;
             text-align: center;
@@ -68,11 +71,11 @@ body {
             font-weight: 700;
             transition: 0.2s ease all;
             box-shadow: 
-                1px 1px 0px 0px black, 
-                2px 2px 0px 0px black, 
-                3px 3px 0px 0px black, 
-                4px 4px 0px 0px black, 
-                5px 5px 0px 0px black;
+                1px 1px 0px 0px #000, 
+                2px 2px 0px 0px #000, 
+                3px 3px 0px 0px #000, 
+                4px 4px 0px 0px #000, 
+                5px 5px 0px 0px #000;
             transform: translate(-5px, -5px);
 
             &:hover {
@@ -84,7 +87,6 @@ body {
 
             &.sitio-web:hover {
                 background-color: orange;
-                color: #000;
             }
 
             &.youtube:hover {
